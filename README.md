@@ -1,4 +1,4 @@
-Audio Spectrum Analyzer for Android
+Heart Sound Stethoscope for Android
 ===================================
 
 >  A fork of [Audio spectrum Analyzer for Android](https://code.google.com/p/audio-analyzer-for-android/) (See README.old for its original readme), 
@@ -39,3 +39,4 @@ Thanks
 ------
 
 The code [Audio spectrum Analyzer for Android](https://code.google.com/p/audio-analyzer-for-android/), [Audio Spectrum Analyzer for Android](https://github.com/bewantbe/audio-analyzer-for-android), [Sample Equalizer](http://www.kevinboone.net/android_simple_eq.html) gives me creating working heart sound stethocope.
+
