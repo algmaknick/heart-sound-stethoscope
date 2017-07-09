@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_switch_thumb.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/color/abc_search_url_text.xml"
+    }
+]

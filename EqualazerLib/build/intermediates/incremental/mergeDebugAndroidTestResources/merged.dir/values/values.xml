@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about" translatable="false">About...</string>
+    <string name="bass_boost" translatable="false">Bass boost</string>
+    <string name="copyright_message" translatable="false">
+
+In measurements accoustic frequency of S1 is 30-50Hz and S2 40-70 Hz with wide interpersonal variability and shifts secondary to technical equipment.  Harmonic frequencies are also present  (to 500-700Hz)</string>
+    <string name="enabled" translatable="false">Enabled</string>
+    <string name="flat" translatable="false">Flat</string>
+    <string name="ok" translatable="false">OK</string>
+</resources>

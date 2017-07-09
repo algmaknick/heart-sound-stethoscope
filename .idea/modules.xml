@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EqualazerLib/EqualazerLib.iml" filepath="$PROJECT_DIR$/EqualazerLib/EqualazerLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FFTLibrary/FFTLibrary.iml" filepath="$PROJECT_DIR$/FFTLibrary/FFTLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audio-analyzer-for-android-eq_master.iml" filepath="$PROJECT_DIR$/audio-analyzer-for-android-eq_master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heartSoundStethoscope/heartSoundStethoscope.iml" filepath="$PROJECT_DIR$/heartSoundStethoscope/heartSoundStethoscope.iml" />
+    </modules>
+  </component>
+</project>

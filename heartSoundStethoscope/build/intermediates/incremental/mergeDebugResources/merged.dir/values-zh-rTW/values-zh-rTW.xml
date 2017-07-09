@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="True">true</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="app_name">實用音頻頻譜分析器</string>
+    <string name="ave">平均數</string>
+    <string name="button_dbA">dB::dBA</string>
+    <string name="button_freq_scaling_mode">線性::對數::音符</string>
+    <string name="button_recording">監聽::錄音</string>
+    <string name="button_run">運行::暫停</string>
+    <string name="button_spectrum_spectrogram_mode">頻譜::時頻譜</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">      關閉</string>
+    <string name="et_db_setting_lower_bound">dB 下限</string>
+    <string name="et_db_setting_upper_bound">dB 上限</string>
+    <string name="et_freq_setting_lower_bound">頻率下限</string>
+    <string name="et_freq_setting_upper_bound">頻率上限</string>
+    <string name="fft_ave_num_name">N平均::0</string>
+    <string name="fft_len_name">FFT長度::0</string>
+    <string name="fftlen">FFT長度</string>
+    <string name="instructions_text">&lt;h2>按钮操作&lt;/h2>
+&lt;font color="green">頻譜/時頻譜&lt;/font>
+&lt;br/>顯示實時&lt;b>頻譜&lt;/b> (spectrum)。橫軸為頻率，縱軸為該頻率成分的強度。
+&lt;br/>或顯示&lt;b>時頻譜&lt;/b> (spectrogram)。顏色表示聲音在該頻率和時刻的強度。
+&lt;p/>
+&lt;font color="green">dB/dBA&lt;/font>
+&lt;br/>切換 dBFS 和 A-加權（A-weighting）的 dBFS（即 dBA）。dBA 在環境噪音測量中被廣泛使用，但此處 dBA 僅供參考，見後文技術參數。
+&lt;p/>
+&lt;font color="green">線性/對數&lt;/font>
+&lt;br/>切換&lt;b>線性&lt;/b>或&lt;b>對數&lt;/b>頻率軸顯示。在對數模式，最低頻率由採樣率除以傅立葉變換長度決定。
+&lt;p/>
+&lt;font color="green">運行/暫停&lt;/font>
+&lt;br/>&lt;b>運行&lt;/b>或&lt;b>暫停&lt;/b>實時分析。注意，暫停時仍然可以正常錄音。
+&lt;p/>
+&lt;font color="green">採樣率&lt;/font>
+&lt;br/>選擇採樣率。高採樣率可以看到更高頻率的信息，而低採樣率有更高的頻率解析度。
+&lt;p/>
+&lt;font color="green">FFT長度&lt;/font>
+&lt;br/>選擇傅立葉變換長度。較大的長度具有更高的頻率解析度，但同時時間解析度會較低。
+&lt;p/>
+&lt;font color="green">N平均&lt;/font>
+&lt;br/>頻譜取平均的個數。更高的值能減小分析誤差以及使頻譜光滑，但同時時間解析度會更低。
+&lt;p/>
+
+&lt;h2>頻譜窗口操作&lt;/h2>
+&lt;font color="#00BFFF">拖動和掃動&lt;/font>
+&lt;br/>移動頻譜或時頻譜。
+&lt;p/>
+&lt;font color="#00BFFF">雙指張合&lt;/font>
+&lt;br/>放大或縮小頻譜或時頻譜。
+&lt;p/>
+&lt;font color="#00BFFF">雙擊&lt;/font>
+&lt;br/>重置放縮。
+&lt;p/>
+&lt;font color="#00BFFF">長按&lt;/font>
+&lt;br/>放置指針。（長按後）按住並移動可以調整指針位置，手指離開螢幕即固定指針位置。
+&lt;br/>將指針移到視線外即可刪除指針。
+&lt;p/>
+
+&lt;h2>屏幕截圖&lt;/h2>
+一般方法 (>=Android 4.0):
+&lt;br/>&amp;nbsp;&amp;nbsp; 同時按下 \"音量減小\" + \"電源\" 鍵.
+&lt;br/>三星手機:
+&lt;br/>&amp;nbsp;&amp;nbsp; 同時按下 \"電源\" + \"主頁\" 鍵.
+&lt;p/>
+
+&lt;h2>設定&lt;/h2>
+&lt;h4>錄音源&lt;/h4>
+作測量用途時推薦使用 &lt;b>VOICE_RECOGNITION&lt;/b>。
+&lt;h4>窗函數&lt;/h4>
+一般用途推薦使用&lt;b>Hanning&lt;/b>。
+&lt;br/>高動態範圍（低泄漏）的窗函數一般頻率分辨能力較差，反之亦然。
+&lt;br/>動態範圍從低到高排序是 (頻率分辨力高到低)：
+&lt;br/>
+&lt;br/>&lt;font face="monospace">Rectangular:      57 dB (54 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Bartlett:        105 dB (79 dB, 82 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Kaiser,a=2.0:     90 dB (93 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Hanning:         154 dB (90 dB, 94 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Blackman:        162 dB (107 dB, 107 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Kaiser,a=3.0:    114 dB (111 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Blackman-harris: 133 dB (124 Hz)&lt;/font>
+&lt;br/>&lt;font face="monospace">Kaiser,a=4.0:    138 dB (127 Hz)&lt;/font>
+&lt;br/>
+&lt;br/>&lt;font color="gray">動態範圍測量點：距離中心頻率一半最高頻的位置。使用傅立葉變換長度 1024, 採樣率 48kHz。&lt;/font>
+&lt;br/>&lt;font color="gray">對於 "Blackman", "Hanning" 和 "Bartlett" 這三個時窗函數，其動態範圍隨距離中心頻率的增加而快速增長。括號內的分貝數表示相同頻率分辨能力的DPSS時窗的動態範圍。&lt;/font>
+&lt;br/>&lt;font color="gray">傅立葉變換長度翻倍會使動態範圍至少增加 6 dB, 對於 "Bartlett", "Hanning" 和 "Blackman" 時窗其增量是 +12dB, +18dB 和 +18dB。&lt;/font>
+
+&lt;h2>技術參數&lt;/h2>
+\u2022 本軟體中，所有分貝（dB）都指相對於滿幅值的音量（decibels relative to full scale，dBFS）。將 dBFS 轉化為聲學分貝（如dB SPL, dBC, 或 dBA），不是件容易的事，至少需要校準整個頻譜。
+&lt;br/>&lt;br/>
+\u2022 滿振幅的正弦波音量定義為 &lt;b>0 dBFS&lt;/b>. 因此，滿振幅的方波音量是 +3.0 dBFS 而其基頻的強度是 +2.0 dBFS. 振幅為滿幅的 1/32768 的信號強度為 -90.3 dBFS.
+&lt;br/>&lt;br/>
+\u2022 本軟體中的 dBA 是一個簡單的 A-加權 (A-weighting) 的 dBFS，而不是聲學的 dBA。
+&lt;br/>&lt;br/>
+\u2022 低於 -110 dB 的信號基本可以看作噪音，這是由傅立葉變換程序的計算精度所限制的。然而整體來看，設備麥克風本身帶來的誤差仍是最大的。
+&lt;br/>&lt;br/>
+\u2022 一些（如果不是很多）移動設備的採樣率轉換器質量較低，時常可以看到假的頻譜線（高頻信號混疊到低頻）。這可以通過用戶自行產生掃頻信號對各種採樣率進行測試得出(如使用 &lt;a href="http://www.audacityteam.org/">Audacity&lt;/a>)。
+&lt;br/>&lt;br/>
+\u2022 本軟體的耗電較高，大致相當於高清視頻播放的耗電量的一半。
+&lt;br/>&lt;br/>
+
+&lt;h2>軟體內部實作說明&lt;/h2>
+\u2022 所有的頻譜和時頻譜的計算都通過快速傅立葉變換(FFT)進行。數據進行FFT計算之前先與時窗函數相乘，而相鄰的數據片段之間有 50% 的重疊（用以提高時間解析度）。
+&lt;br/>&lt;br/>
+\u2022 峰值頻率的計算：先查找頻譜的峰值，然後結合相鄰的數據點做二次函數插值，用插值函數的峰值作為頻率峰值。誤差一般不到十分之一的 (採樣率)/(FFT長度)（也即插值使精度提高了10倍）。例如在採樣率 48kHz 和 FFT 長度 8192 時, 峰值頻率誤差大致是 0.6 Hz。
+&lt;br/>&lt;br/>
+\u2022 &lt;b>頻譜&lt;/b>模式比&lt;b>時頻譜&lt;/b>模式要消耗更多電量，在低端設備中，這可能消耗掉所有的計算資源(CPU/GPU)，尤其是採樣率較高時。可以在&lt;b>設定&lt;/b>中開啟顯示音頻緩衝區溢出（overruns）警告。
+&lt;br/>&lt;br/>
+\u2022 掉幀的情況是可能出現的，比如採樣率設為 48kHz，FFT長度設為 1024 時，刷新率是 (採樣率/FFT長度)*2 = 48000 / 1024 * 2 = &lt;b>93.75&lt;/b> FPS，這對於移動設備來說太高了，掉幀在所難免。
+&lt;br/>&lt;br/>
+&lt;/p>
+&lt;a href="https://github.com/bewantbe/audio-analyzer-for-android/wiki/Privacy-Policy">隱私政策&lt;/a>
+&lt;br/>&lt;br/>
+&lt;/p>
+by S A Uhler, Eddy Xiao 和其他貢獻者 &lt;a href="https://code.google.com/archive/p/audio-analyzer-for-android/">Audio Spectrum Analyzer for Android&lt;/a>
+根據Apache許可證2.0和
+&lt;br/>&lt;br/>
+&lt;a href="https://github.com/bewantbe/audio-analyzer-for-android">Audio Spectrum Analyzer for Android&lt;/a> 根據Apache許可證版本2.0
+&lt;br/>&lt;br/>
+\u2022 簡單均衡器根據GNU公共許可證v2.0的條款分發 Kevin Bonne
+&lt;/p>
+</string>
+    <string name="instructions_title">      使用手冊</string>
+    <string name="menu_manual">使用幫助</string>
+    <string name="menu_manual_condensed">幫助</string>
+    <string name="menu_preferences">設定</string>
+    <string name="menu_preferences_condensed">設定</string>
+    <string name="menu_set_view">顯示範圍設定</string>
+    <string name="menu_set_view_condensed">範圍設定</string>
+    <string name="menu_test">錄音源測試</string>
+    <string name="menu_test_condensed">測試</string>
+    <string name="ok">確定</string>
+    <string name="permission_explanation_recorder">需要讀取麥克風的權限本程序才能正常工作。</string>
+    <string name="permission_explanation_title">沒有權限</string>
+    <string name="permission_explanation_write">需要讀寫儲存的權限本程序才能錄音。</string>
+    <string name="preference_audioSource_1">用於頻譜分析的音頻源</string>
+    <string name="preference_audioSource_2">音頻源</string>
+    <string name="preference_developerSetting">開發者選項</string>
+    <string name="preference_generalSettings">常規設定</string>
+    <string name="preference_keepScreenOn_1">分析時阻止螢幕和設備關閉</string>
+    <string name="preference_keepScreenOn_2">保持螢幕開</string>
+    <string name="preference_miscellaneous">雜項</string>
+    <string name="preference_showLines_1">頻譜顯示為線條（而不是柱狀圖）</string>
+    <string name="preference_showLines_2">僅顯示頻譜輪廓線條</string>
+    <string name="preference_spectrogramAppearance">時頻譜設定</string>
+    <string name="preference_spectrogramColorMap_1">選擇分貝與顏色映射的風格</string>
+    <string name="preference_spectrogramColorMap_2">色彩映射 (Color Map)</string>
+    <string name="preference_spectrogramDuration_1">時頻譜記錄的時長（頻譜平均數為1時）</string>
+    <string name="preference_spectrogramDuration_2">時頻譜時長</string>
+    <string name="preference_spectrogramFPS_1">調高以獲得更平滑的圖像，調低以節省電量。</string>
+    <string name="preference_spectrogramFPS_2">幀率限制</string>
+    <string name="preference_spectrogramLogPlotMethod_1">放縮時重繪，較為節省電池，否則是每次重繪。</string>
+    <string name="preference_spectrogramLogPlotMethod_2">對數軸繪製方法: 放縮時重繪</string>
+    <string name="preference_spectrogramRange_1">時頻譜顯示的動態範圍</string>
+    <string name="preference_spectrogramRange_2">時頻譜動態範圍</string>
+    <string name="preference_spectrogramShifting_1">時頻譜隨時間平移，而不是覆蓋式</string>
+    <string name="preference_spectrogramShifting_2">平移式時頻譜</string>
+    <string name="preference_spectrogramShowFreqAlongX_1">也即縱軸為時間軸</string>
+    <string name="preference_spectrogramShowFreqAlongX_2">橫軸作為頻率軸</string>
+    <string name="preference_spectrogramSmoothRender_1">平滑渲染時頻譜</string>
+    <string name="preference_spectrogramSmoothRender_2">平滑渲染</string>
+    <string name="preference_spectrogramTimeAxis_1">顯示時間軸及時間標籤</string>
+    <string name="preference_spectrogramTimeAxis_2">顯示時間軸</string>
+    <string name="preference_spectrumAppearance">頻譜設定</string>
+    <string name="preference_spectrumRange_1">頻譜顯示的動態範圍</string>
+    <string name="preference_spectrumRange_2">頻譜動態範圍</string>
+    <string name="preference_warnOverrun_1">當音頻緩衝區溢出(進入 overrun 狀態)時顯示警告</string>
+    <string name="preference_warnOverrun_2">Overrun 警告</string>
+    <string name="preference_windowFunction_1">用於短時傅立葉變換(STFT)的窗函數</string>
+    <string name="preference_windowFunction_2">窗函數</string>
+    <string name="preference_windowOverlap_1">高重疊比例則時間分辨率高，低重疊比例則節省計算資源</string>
+    <string name="preference_windowOverlap_2">時窗重疊比例</string>
+    <string name="preferences">設定</string>
+    <string name="rec_tester_all">測試所有可能的錄音源</string>
+    <string name="rec_tester_col1">"\n採樣率     最小緩衝區   (時間)\n"</string>
+    <string name="rec_tester_col2">"%1$5d Hz  %2$4d Bytes (%3$4.1f ms)\n"</string>
+    <string name="rec_tester_col3">"\錄音源: %1$s\n"</string>
+    <string name="rec_tester_col3_end">"。\n"</string>
+    <string name="rec_tester_col3_error1">"非法參數"</string>
+    <string name="rec_tester_col3_error2">"讀取到 0 字節"</string>
+    <string name="rec_tester_col3_error3">"讀取數據失敗"</string>
+    <string name="rec_tester_col3_error4">"初始化失敗"</string>
+    <string name="rec_tester_col3_hint1">"(录音源改变: %1$s)"></string>
+    <string name="rec_tester_col3_row1">"%1$5d Hz  "</string>
+    <string name="rec_tester_col3_succeed">"成功"</string>
+    <string name="rec_tester_error1">" Hz  錯誤\n"</string>
+    <string name="rec_tester_hint1">"(僅測試單聲道16位格式)\n"</string>
+    <string name="rec_tester_hint2">"\n--- 錄音源測試 ---\n"</string>
+    <string name="rec_tester_std">測試標準錄音源</string>
+    <string name="rec_tester_support">測試支持的錄音源</string>
+    <string name="sample_rates_name">採樣率::0</string>
+    <string name="sample_s">採樣率</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string name="show_range_button_lock">載入之前設定</string>
+    <string name="show_range_lock">鎖定範圍</string>
+    <string name="show_range_tv_dBH">"(%1$.2f&lt;= dB &lt;=%2$.2f)"</string>
+    <string name="show_range_tv_dBL">"設置分貝下限和上限"</string>
+    <string name="show_range_tv_fH">"(%1$.2f&lt;= Hz &lt;=%2$.2f)"</string>
+    <string name="show_range_tv_fL">"設置頻率下限和上限"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_cur">指针:</string>
+    <string name="text_peak">峰值:</string>
+    <string name="text_rec">錄音:</string>
+    <string name="text_remain">", 剩餘: "</string>
+    <string name="text_view_info_log_0">錄音源測試中..</string>
+    <string name="textview_RMS_text">RMS:dB \n-XXX.X</string>
+    <string name="textview_cur_text">指针:XXXXX.XHz(AX#+XX) -XXX.XdB</string>
+    <string name="textview_peak_text">峰值:XXXXX.XHz(AX#+XX) -XXX.XdB</string>
+    <string name="textview_rec_text">錄音: 00:00:00.0, 剩餘空間: 0000:00:00</string>
+    <string name="title_activity_info_rec">錄音源信息</string>
+</resources>

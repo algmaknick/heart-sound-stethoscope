@@ -1,0 +1,123 @@
+[
+    {
+        "outputFile": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 70,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 70,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endLine": 6,
+                    "endColumn": 213,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endLine": 6,
+                        "endColumn": 213,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endColumn": 64,
+                    "endOffset": 524
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 64,
+                        "endOffset": 524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 529,
+                    "endColumn": 58,
+                    "endOffset": 583
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 529,
+                        "endColumn": 58,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 588,
+                    "endColumn": 54,
+                    "endOffset": 638
+                },
+                "from": {
+                    "file": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 588,
+                        "endColumn": 54,
+                        "endOffset": 638
+                    }
+                }
+            }
+        ]
+    }
+]

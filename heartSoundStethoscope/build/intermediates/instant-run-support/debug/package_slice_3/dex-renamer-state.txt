@@ -1,0 +1,4 @@
+#Sun Jul 09 16:15:40 EEST 2017
+base.0=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
+renamed.0=classes.dex
+file.0=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex

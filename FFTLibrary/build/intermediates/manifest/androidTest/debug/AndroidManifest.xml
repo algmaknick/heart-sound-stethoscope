@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.corp.productivity.specialprojects.android.fft.test" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.google.corp.productivity.specialprojects.android.fft.test"
+        android:targetPackage="com.google.corp.productivity.specialprojects.android.fft.test" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

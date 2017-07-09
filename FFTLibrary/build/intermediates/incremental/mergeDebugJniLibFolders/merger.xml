@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/algiz/Documents/audio-analyzer-for-android-eq_master/FFTLibrary/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/algiz/Documents/audio-analyzer-for-android-eq_master/FFTLibrary/src/debug/jniLibs"/></dataSet></merger>

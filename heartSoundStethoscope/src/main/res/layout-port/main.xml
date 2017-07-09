@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <view
+        android:id="@+id/plot"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.32"
+        class="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerGraphic"
+        custom:cutoffDb="-25"
+        custom:sampleRate="16000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textview_RMS"
+            android:layout_width="@dimen/textview_RMS_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:lines="2"
+            android:text="@string/textview_RMS_text"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textview_cur"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/textview_RMS"
+            android:layout_toEndOf="@id/textview_RMS"
+            android:text="@string/textview_cur_text"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textview_peak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_cur"
+            android:layout_toRightOf="@id/textview_RMS"
+            android:layout_toEndOf="@id/textview_RMS"
+            android:text="@string/textview_peak_text"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textview_rec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_rec_text"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <github.algmaknick.Heart_Sound_Stethoscope_for_android.SelectorText
+            android:id="@+id/button_recording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:tag="select"
+            android:text="Mon"
+            android:textSize="20sp"
+            custom:itemsDisplay="@string/button_recording"
+            custom:items="Mon Rec" />
+
+        <Button
+            android:id="@+id/button_sample_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_button_height"
+            android:layout_gravity="center"
+            android:onClick="showPopupMenu"
+            android:text="@string/sample_s"
+            android:textSize="@dimen/button_text_fontsize" />
+
+        <Button
+            android:id="@+id/button_fftlen"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_button_height"
+            android:layout_gravity="center"
+            android:onClick="showPopupMenu"
+            android:text="@string/fftlen"
+            android:textSize="@dimen/button_text_fontsize" />
+
+        <Button
+            android:id="@+id/button_average"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_button_height"
+            android:layout_gravity="center"
+            android:onClick="showPopupMenu"
+            android:text="@string/ave"
+            android:textSize="@dimen/button_text_fontsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <github.algmaknick.Heart_Sound_Stethoscope_for_android.SelectorText
+            android:id="@+id/spectrum_spectrogram_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:tag="select"
+            android:text="1D"
+            android:textSize="20sp"
+            custom:itemsDisplay="@string/button_spectrum_spectrogram_mode"
+            custom:items="spum spam" />
+
+        <github.algmaknick.Heart_Sound_Stethoscope_for_android.SelectorText
+            android:id="@+id/dbA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:tag="select"
+            android:text="dB"
+            android:textSize="20sp"
+            custom:itemsDisplay="@string/button_dbA"
+            custom:items="dB dBA" />
+
+        <!--<github.bewantbe.audio_analyzer_for_android.SelectorText-->
+        <!--android:id="@+id/graph_view_mode"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:tag="select"-->
+        <!--android:text="scale"-->
+        <!--android:textSize="20sp"-->
+        <!--custom:items="cursor scale" />-->
+
+        <github.algmaknick.Heart_Sound_Stethoscope_for_android.SelectorText
+            android:id="@+id/freq_scaling_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:tag="select"
+            android:text="linear"
+            android:textSize="20sp"
+            custom:itemsDisplay="@string/button_freq_scaling_mode"
+            custom:items="linear log note" />
+
+        <github.algmaknick.Heart_Sound_Stethoscope_for_android.SelectorText
+            android:id="@+id/run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:tag="select"
+            android:text="run"
+            android:textSize="20sp"
+            custom:itemsDisplay="@string/button_run"
+            custom:items="run stop" />
+    </LinearLayout>
+
+</LinearLayout>

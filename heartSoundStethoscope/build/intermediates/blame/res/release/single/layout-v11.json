@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_media_action.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_template_big_media.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/res/layout-v11/notification_template_big_media_custom.xml"
+    }
+]

@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:4:5-68
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:6:5-37
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:5:5-35
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:7:5-35
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.STREAM_MUSIC
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:16:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:17:5-79
+MERGED from [audio-analyzer-for-android-eq_master:EqualazerLib:unspecified] /home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:17:22-77
+application
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:19:5-63:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/algiz/.android/build-cache/af8dcfa9fa3035a8419d5e106c85711254cf8141/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/algiz/.android/build-cache/4754ca9230b3723bd8bb292ddb0837b5786cd085/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/algiz/.android/build-cache/b95af42772cb4a9cfb6d46ff9472dadc813d7d54/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/algiz/.android/build-cache/81a2f0820c74fd625e73033abec6f1b4050729dd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/algiz/.android/build-cache/3339e45fb265e1e1c5ed6f78308b16a8b9627d1c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/algiz/.android/build-cache/80fe7f14247ba76358c2bd1cdaf2558f614d57b3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/algiz/.android/build-cache/7f29c8d65d86c80055f80cefe9aec1dcba8c485f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/algiz/.android/build-cache/ab6e7cbd6542f19ae5c9eda9c28aaad2e6fc9ac0/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:23:9-41
+	android:fullBackupContent
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:21:9-59
+	android:allowBackup
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:22:9-38
+	android:theme
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:24:9-49
+activity#github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:25:9-42:20
+	android:label
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:26:13-98
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:30:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:32:13-41:29
+action#android.intent.action.VIEW
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:39:27-75
+data
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:40:17-70
+	android:host
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:40:49-67
+	android:scheme
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:40:23-48
+activity#github.algmaknick.Heart_Sound_Stethoscope_for_android.MyPreferences
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:44:13-95
+activity#github.algmaknick.Heart_Sound_Stethoscope_for_android.InfoRecActivity
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:47:9-54:20
+	android:label
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:49:13-60
+	android:parentActivityName
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:50:13-112
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:48:13-97
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:51:13-53:106
+	android:value
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:53:17-103
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:52:17-63
+activity#com.kevinboone.android_simple_eq.EqualazerActivity
+ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:55:9-62:20
+	android:label
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:57:13-44
+	android:parentActivityName
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:58:13-112
+	android:name
+		ADDED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml:56:13-78
+uses-sdk
+INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [audio-analyzer-for-android-eq_master:FFTLibrary:unspecified] /home/algiz/Documents/audio-analyzer-for-android-eq_master/FFTLibrary/build/intermediates/bundles/default/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] /home/algiz/.android/build-cache/af8dcfa9fa3035a8419d5e106c85711254cf8141/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/algiz/.android/build-cache/4754ca9230b3723bd8bb292ddb0837b5786cd085/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/algiz/.android/build-cache/b95af42772cb4a9cfb6d46ff9472dadc813d7d54/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/algiz/.android/build-cache/81a2f0820c74fd625e73033abec6f1b4050729dd/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/algiz/.android/build-cache/3339e45fb265e1e1c5ed6f78308b16a8b9627d1c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/algiz/.android/build-cache/80fe7f14247ba76358c2bd1cdaf2558f614d57b3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/algiz/.android/build-cache/7f29c8d65d86c80055f80cefe9aec1dcba8c485f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] /home/algiz/.android/build-cache/ab6e7cbd6542f19ae5c9eda9c28aaad2e6fc9ac0/output/AndroidManifest.xml:21:5-23:58
+MERGED from [audio-analyzer-for-android-eq_master:EqualazerLib:unspecified] /home/algiz/Documents/audio-analyzer-for-android-eq_master/EqualazerLib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:40
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+		INJECTED from /home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/algiz/.android/build-cache/af8dcfa9fa3035a8419d5e106c85711254cf8141/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/algiz/.android/build-cache/4754ca9230b3723bd8bb292ddb0837b5786cd085/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/algiz/.android/build-cache/b95af42772cb4a9cfb6d46ff9472dadc813d7d54/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/algiz/.android/build-cache/81a2f0820c74fd625e73033abec6f1b4050729dd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/algiz/.android/build-cache/3339e45fb265e1e1c5ed6f78308b16a8b9627d1c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/algiz/.android/build-cache/80fe7f14247ba76358c2bd1cdaf2558f614d57b3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/algiz/.android/build-cache/7f29c8d65d86c80055f80cefe9aec1dcba8c485f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/algiz/.android/build-cache/ab6e7cbd6542f19ae5c9eda9c28aaad2e6fc9ac0/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/algiz/.android/build-cache/ec3f59b2138a14c7f3bf227e129d0e8cc4d896b5/output/AndroidManifest.xml:26:9-47

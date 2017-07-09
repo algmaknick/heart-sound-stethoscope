@@ -1,0 +1,7 @@
+#Sun Jul 09 16:15:40 EEST 2017
+base.0=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64497d3af2c1f59115ac64d3d9132135ba2727ea
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3319edfb494dd377f71b7bbe1b61319c61a543a/classes.dex
+base.1=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3319edfb494dd377f71b7bbe1b61319c61a543a
+file.0=/home/algiz/Documents/audio-analyzer-for-android-eq_master/heartSoundStethoscope/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64497d3af2c1f59115ac64d3d9132135ba2727ea/classes.dex

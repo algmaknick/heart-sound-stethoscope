@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="github.bewantbe.Heart_Sound_Stethoscope_for_android"
+    android:installLocation="auto"
+    android:versionCode="20170420"
+    android:versionName="1.7.0alpha" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="8" -->
+    <!-- android:targetSdkVersion="25" /> -->
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STREAM_MUSIC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/DarkThemeSelector" >
+        <activity
+            android:name="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+
+                <!-- Deeplink support -->
+                <!-- https://developer.android.com/training/app-indexing/deep-linking.html -->
+                <!-- Can start app by -->
+                <!-- adb shell am start -W -a android.intent.action.VIEW -d "bewantbe://asa" -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="asa"
+                    android:scheme="bewantbe" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="github.algmaknick.Heart_Sound_Stethoscope_for_android.MyPreferences"
+            android:label="@string/preferences" >
+        </activity>
+        <activity
+            android:name="github.algmaknick.Heart_Sound_Stethoscope_for_android.InfoRecActivity"
+            android:label="@string/title_activity_info_rec"
+            android:parentActivityName="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity" />
+        </activity>
+        <activity
+            android:name="com.kevinboone.android_simple_eq.EqualazerActivity"
+            android:label="Audio Equalazer"
+            android:parentActivityName="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="github.algmaknick.Heart_Sound_Stethoscope_for_android.AnalyzerActivity" />
+        </activity>
+    </application>
+
+</manifest>
