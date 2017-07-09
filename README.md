@@ -38,5 +38,5 @@ Installation Requirements
 Thanks
 ------
 
-The code [Audio spectrum Analyzer for Android](https://code.google.com/p/audio-analyzer-for-android/), [Audio Spectrum Analyzer for Android](https://github.com/bewantbe/audio-analyzer-for-android), [Sample Equalizer](http://www.kevinboone.net/android_simple_eq.html) gives me creating working heart sound stethocope.
+The code [Audio spectrum Analyzer for Android](https://code.google.com/p/audio-analyzer-for-android/), [Audio Spectrum Analyzer for Android](https://github.com/bewantbe/audio-analyzer-for-android), [Sample Equalizer](http://www.kevinboone.net/android_simple_eq.html) gives me oportunity to create working heart sound stethocope.
 
